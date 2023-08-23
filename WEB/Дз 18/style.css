@@ -1,0 +1,52 @@
+body{
+	background-color: #181818;
+	text-align: center;
+}
+.wall{
+	padding-top: 1500px;
+}
+.block{
+	display: inline-block;
+	height: 300px;
+	width: 650px;
+	margin: 60px;
+	color: #fff;
+	font-size: 100px;
+	text-align: center;
+	line-height: 300px;
+	font-family: Century Gothic;
+}
+.fill{
+	border: 15px solid #DC94CE;
+/*	animation: fill 1s ;*/
+}
+.pulse{
+	border: 15px solid #FF96B4;
+}
+.close{
+	border: 15px solid #FFA492;
+}
+.raise{
+	border: 15px solid #FFB773;
+}
+.fillup{
+	border: 15px solid #EFE986;
+}
+.slide{
+	border: 15px solid #8BDE98;
+}
+.offset{
+	border: 15px solid #00BDA8;
+}
+@keyframes fill{
+	form{
+		background-color: #FF646B;
+	}
+	to{
+		background-color: #FF646B;
+	}
+
+}
+.fill:hover{
+	animation: fill 1s;
+}

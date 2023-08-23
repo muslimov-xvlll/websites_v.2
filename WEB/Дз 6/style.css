@@ -1,0 +1,41 @@
+.menu{
+	width: 220px;
+	height: 50px;
+	background-color: #FF5A04;
+	text-align: center;
+	line-height: 50px;
+	font-size: 22px;
+	color: #ffffff;
+	/*font-weight: bold;*/
+	/*font-family: arial;*/
+	display: inline-block;
+	text-decoration: none;
+}
+.home{
+	font-family: arial;
+}
+.blog{
+	font-weight: bold;
+	margin-left: 0;
+}
+.blog i, .work i{
+	font-size: 17px;
+}
+.blog:hover{
+	background-color: #DD3800;
+}
+.work:hover{
+	background-color: #DD3800;
+}
+.list{
+	display: none;
+}
+.menu ul li:hover > ul{
+	display: inherit;
+}
+.menu ul ul li {
+	min-width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
+}

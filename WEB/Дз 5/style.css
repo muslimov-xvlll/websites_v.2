@@ -1,0 +1,99 @@
+.Facebook{
+	height: 100px;
+	width: 300px;
+	background-color: #3059A0;
+	border: 1px solid #000000;
+	border-radius: 8px;
+	color: #ffffff;
+	position: relative;
+	text-align: center;
+	line-height: 100px;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.i{
+	left: 0;
+	top: 0;
+	height: 100px;
+	width: 90px;
+	position: absolute;
+	background-color: #000000;
+	border-radius: 8px 0 0 8px;
+	color: #3059A0;
+	text-align: center;
+	line-height: 100px;
+	font-size: 40px;
+}
+.Twitter{
+	top: 0;
+	height: 100px;
+	width: 300px;
+	background-color: #9A9A98;
+	border: 1px solid #000000;
+	border-radius: 8px;
+	color: #ffffff;
+	position: relative;
+	text-align: center;
+	line-height: 100px;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.Twitter i{
+	color: #49A5EB;
+}
+.Google{
+	top: 0;
+	height: 100px;
+	width: 300px;
+	background-color: #FF4913;
+	border: 1px solid #000000;
+	border-radius: 8px;
+	color: #ffffff;
+	position: relative;
+	text-align: center;
+	line-height: 100px;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.Google i{
+	color: #FC1B00;
+}
+.Pint{
+	top: 0;
+	height: 100px;
+	width: 300px;
+	background-color: #FF1B00;
+	border: 1px solid #000000;
+	border-radius: 8px;
+	color: #ffffff;
+	position: relative;
+	text-align: center;
+	line-height: 100px;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.Pint i{
+	color: #F0E9E4;
+}
+.In{
+	top: 0;
+	height: 100px;
+	width: 300px;
+	background-color: #007ACF;
+	border: 1px solid #000000;
+	border-radius: 8px;
+	color: #ffffff;
+	position: relative;
+	text-align: center;
+	line-height: 100px;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.In i{
+	color: #D2D4B7;
+}

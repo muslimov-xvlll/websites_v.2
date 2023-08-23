@@ -1,0 +1,93 @@
+body{
+	background-image: url("fon.png");
+	background-size: 100%;
+}
+.img{
+	width: 1000px;
+	text-align: center;
+}
+.eda1{
+	background-size: 100% 100%;
+	background-image: url("eda1.jpg");
+	width: 400px;
+	height: 330px;
+	margin-top: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	position: relative;
+	border-radius: 0 0 10px 11px;
+}
+.heart{
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	color: #ffffff;
+	width: 40px;
+	height: 40px;
+	background-color: rgba(237,95,130,70%);
+	left: 0;
+	top: 10%;
+	position: absolute;
+	border-radius: 0 15% 15% 0;
+	border-left: 3px dashed #AA3C4E;
+
+}
+.eda2{
+	background-size: 100%;
+	background-image: url("eda2.jpg");
+	width: 400px;
+	height: 330px;
+	display: inline-block;
+	margin-left: 15px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.eda3{
+	background-size: 100%;
+	background-image: url("eda3.jpg");
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	margin-top: 15px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.blue{
+	width: 400px;
+	height: 70px;
+	background-color: rgba(96,197,182, 80%);
+	position: absolute;
+	bottom: 18%;
+	text-align: center;
+	line-height: 70px;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 900;
+	font-family: arial;
+}
+.white{
+	width: 400px;
+	height: 60px;
+	background-color: #F1F1EE;
+	position: absolute;
+	bottom: 0;
+	border-radius: 0 0 10px 10px;
+	padding-left: 0;
+	color: gray;
+	font-family: century gothic;
+	font-size: 13px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: 600;
+}
+ul{
+	list-style: none;
+	float: left;
+}
+li{
+	margin-left: 10px;
+	display: inline;
+}
+i{
+	margin-right: 5px;
+}

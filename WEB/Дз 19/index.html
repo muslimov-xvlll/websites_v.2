@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dz19</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bellota|Cormorant+Garamond|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="str1" id="home">
+		<div class="menu">
+			<ul>
+				<li><a href="#home">HOME</a></li>
+				<li><a href="#aboutme">ABOUT ME</a></li>
+				<li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+				<li><a href="#cont">CONTACT</a></li>
+			</ul>
+			<hr class="hr">
+		</div>
+		<img src="logo.png" alt="threes" class="logoimg">
+		<img src="TM.png" alt="TM" class="logotm">
+		<p class="text1"><span>JWOOD</span>PHOTOGRAPHY
+		<p class="text1 scroll">SCROLL DOWN TO SEE MORE</p>
+		<img src="da.png" alt="da" class="da">
+	</div>
+	<div class="str2" id="aboutme">
+		<div class="block2" >
+			<div class="imgblock" >
+				<img src="JasonWood.png" alt="Jason Wood" class="Jw">
+			</div>
+			<div class="textblock">
+				<h1 class="am">ABOUT ME</h1>
+				<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa aliquid ipsa iure nam placeat accusantium quam repellat beatae cumque, molestias voluptatem perferendis, consectetur nulla similique magnam dicta sint incidunt natus?</p>
+				<p class="lorem lorem2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo aliquid reiciendis repellat distinctio.</p>
+				<span class="JasonWood">Jason Wood</span>
+			</div>
+			<span class="keep">KEEP SCROLLING. THERE IS STILL MORE TO COME.</span>
+			<img src="da2.png" alt="da" class="da2">
+		</div>
+	</div>
+	<div class="str3" id="PORTFOLIO">
+		<h1 class="port" >PORTFOLIO</h1>
+		<div class="imgblock3">
+			<img src="3.1.png" alt="">
+			<img src="3.2.png" alt="">
+			<img src="3.3.png" alt="">
+			<img src="3.4.png" alt="">
+			<img src="3.5.png" alt="">
+			<img src="3.6.png" alt="">
+			<img src="3.7.png" alt="">
+			<img src="3.8.png" alt="">
+			<img src="3.9.png" alt="">
+			<img src="3.10.png" alt="">
+		</div>
+		<span class="Do">DO YOU WANT TO SEE IT WITH YOUR OWN EYAES? SCROLL!</span>
+		<img src="da.png" alt="da" class="da da3">
+	</div>
+	<div class="str4" id="cont">
+		<span class="T mail">MAIL:</span>
+		<span class="a j">JASON@WOOD.COM</span>
+		<span class="T phone">PHONE:</span>
+		<span class="a nom">+44 212 432 444</span>
+		<span class="T socm">SOCIAL MEDIA:</span>
+		<div class="s twit"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+		<div class="s face"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+		<div class="s inst"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+		<span class="des">DESIGNED BY MUSLIMOV RAMIS</span>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+$(function(){
+        $("a[href^='#']").click(function(){
+                var _href = $(this).attr("href");
+                $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+                return false;
+        });
+});
+</script>

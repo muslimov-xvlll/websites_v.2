@@ -1,0 +1,24 @@
+h1{
+	text-align: center;
+	color: #F7F9FB;
+}
+
+body{
+	background-color: #141B24;
+	background-image: url("images/Ночная смена.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 800px;
+}
+
+p{
+	color: #F7F9FB;
+	height: 1000px;
+	font-size: 21px;
+	text-align: left;
+}
+
+h4{
+	color: #F7F9FB;
+	background-position: bottom;
+}

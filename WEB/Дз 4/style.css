@@ -1,0 +1,112 @@
+body{
+    background-color: #41546D;
+}
+.White{
+    height: 620px;
+    width: 550px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-46%);
+}
+.gray{
+    height: 140px;
+    width: 510px;
+    background-color: #CCCCCA;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-208%);
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 140px;
+    color: #ffffff;
+    font-size: 30px;
+}
+.gray2{
+    height: 140px;
+    width: 510px;
+    background-color: #CCCCCA;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-102%);
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 140px;
+    color: #ffffff;
+    font-size: 30px;
+}
+.gray3{
+    height: 140px;
+    width: 510px;
+    background-color: #CCCCCA;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,5%);
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 140px;
+    color: #ffffff;
+    font-size: 30px;
+}
+.gray4{
+    height: 140px;
+    width: 510px;
+    background-color: #CCCCCA;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,112%);
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 140px;
+    color: #ffffff;
+    font-size: 30px;
+}
+.red{
+    height: 140px;
+    width: 140px;
+    background-color: #FF1B43;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-182%,-50%);
+    line-height: 180px;
+    text-align: center;
+}
+.red2{
+    height: 140px;
+    width: 140px;
+    background-color: #FF1B43;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-182%,-50%);
+    line-height: 180px;
+    text-align: center;
+}
+.red3{
+    height: 140px;
+    width: 140px;
+    background-color: #FF1B43;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-182%,-50%);
+    line-height: 180px;
+    text-align: center;
+}
+.red4{
+    height: 140px;
+    width: 140px;
+    background-color: #FF1B43;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-182%,-50%);
+    line-height: 180px;
+    text-align: center;
+}

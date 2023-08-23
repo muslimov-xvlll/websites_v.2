@@ -1,0 +1,29 @@
+body{
+	background-image: url(fon.jpg);
+}
+
+.q{
+	margin: 20px 0px 0px 445px;
+	width: 240px;
+	border: 4px solid #ffffff;
+	border-radius: 7px;
+	box-shadow: #000000 3px 0px 10px;
+
+}
+
+h1{
+	font-family: Arial;
+	text-align: center;
+	font-size: 60px;
+	margin: 40px;
+	color: #8413B9;
+	text-shadow: #00ABAB 3px 0px 0px, #000000 6px 4px 5px, #FF9F36 10px 2px 5px;
+}
+
+.w{
+	width: 240px;
+	border: 4px solid #ffffff;
+	border-radius: 7px;
+	margin-left: 15px;
+	box-shadow: #000000 3px 0px 10px;
+}
